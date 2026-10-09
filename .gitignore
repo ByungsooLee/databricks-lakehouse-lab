@@ -1,0 +1,19 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.databricks/
+
+# Editor and operating system files
+.DS_Store
+.idea/
+.vscode/
+
+# Python and notebook runtime artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Logs and local outputs
+*.log
+*.out
